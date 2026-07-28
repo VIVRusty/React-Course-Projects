@@ -24,10 +24,9 @@ const App = () => {
   return (
     <div className="row justify-content-center">
       <div className="col-5">
-        <h3 className="mb-4">Add new Expense</h3>
+        <h3 className="text-center py-1 text-success my-4">Add new Expenses</h3>
         <Form onSubmit={handleFormSubmit} />
         <br />
-        <h3 className="my-4">Check Expenses</h3>
         <ExpensesList data={expenses} onDelete={(index) => deleteExpense(index)} />
       </div>
     </div>
