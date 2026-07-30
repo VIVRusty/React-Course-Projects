@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "BKP/ExpenseTracker/bkp_ExpensesList.tsx", "BKP/ExpenseTracker/bkp_Form.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
